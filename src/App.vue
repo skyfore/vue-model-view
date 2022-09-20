@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Vue 2 + TypeScript + Vite" />
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import HelloWorld from './components/HelloWorld.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
   }
 })
 </script>
