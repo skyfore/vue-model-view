@@ -751,6 +751,11 @@ color-name@^1.1.4:
   resolved "http://r.npm.sankuai.com/color-name/download/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
+commander@*:
+  version "9.4.0"
+  resolved "http://r.npm.sankuai.com/commander/download/commander-9.4.0.tgz#bc4a40918fefe52e22450c111ecd6b7acce6f11c"
+  integrity sha1-vEpAkY/v5S4iRQwRHs1reszm8Rw=
+
 consolidate@^0.15.1:
   version "0.15.1"
   resolved "http://r.npm.sankuai.com/consolidate/download/consolidate-0.15.1.tgz#21ab043235c71a07d45d9aad98593b0dba56bab7"
@@ -1318,6 +1323,13 @@ minimist@^1.2.6:
   version "1.2.6"
   resolved "http://r.npm.sankuai.com/minimist/download/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha1-hjelt1nqDW6YcCz7OpKDMjyTr0Q=
+
+mockjs@^1.1.0:
+  version "1.1.0"
+  resolved "http://r.npm.sankuai.com/mockjs/download/mockjs-1.1.0.tgz#e6a0c378e91906dbaff20911cc0273b3c7d75b06"
+  integrity sha1-5qDDeOkZBtuv8gkRzAJzs8fXWwY=
+  dependencies:
+    commander "*"
 
 ms@2.1.2:
   version "2.1.2"

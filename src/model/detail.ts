@@ -13,4 +13,10 @@ export class Detail extends Base {
     this.modelA = new ModelA()
     this.modelB = new ModelB()
   }
+
+  async init () {
+    await this.delay()
+    this.modelA.init()
+    this.modelB.init()
+  }
 }

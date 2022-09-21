@@ -16,7 +16,7 @@ type ModelBInsRef = { value: ModelB }
  * @returns detail
  */
 export const useDetailIns = (): DetailInsRef => {
-  const detailInsRef = inject(detailProviderSymbol) as DetailInsRef
+  const detailInsRef = inject(detailProviderSymbol, ref()) as DetailInsRef
   return detailInsRef
 }
 
@@ -25,10 +25,8 @@ export const useDetailIns = (): DetailInsRef => {
  * @returns modelA
  */
 export const useModelAIns = (): ModelAInsRef => {
-  return computed(() => {
-    const detailIns = useDetailIns()
-    return ref(detailIns?.value?.modelA)
-  })
+  const detailIns = useDetailIns()
+  return computed(() => detailIns?.value?.modelA)
 }
 
 /**
@@ -36,8 +34,6 @@ export const useModelAIns = (): ModelAInsRef => {
  * @returns modelB
  */
 export const useModelBIns = (): ModelBInsRef => {
-  return computed(() => {
-    const detailIns = useDetailIns()
-    return ref(detailIns?.value?.modelB)
-  })
+  const detailIns = useDetailIns()
+  return computed(() => detailIns?.value?.modelB)
 }
