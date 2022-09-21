@@ -24,6 +24,8 @@ export default {
   mounted () {
     const detailIns = new DetailModel()
     detailIns.init()
+
+    this.detailIns = detailIns
   },
 }
 </script>
