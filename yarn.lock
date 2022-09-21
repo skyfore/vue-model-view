@@ -1938,6 +1938,11 @@ vscode-vue-languageservice@^0.27.0:
     vscode-pug-languageservice "^0.27.24"
     vscode-typescript-languageservice "^0.27.25"
 
+vue-demi@^0.13.11:
+  version "0.13.11"
+  resolved "http://r.npm.sankuai.com/vue-demi/download/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
+  integrity sha1-fZA2m9rol02HsZc1ZK05AYJBDZk=
+
 vue-template-compiler@^2.6.14:
   version "2.7.10"
   resolved "http://r.npm.sankuai.com/vue-template-compiler/download/vue-template-compiler-2.7.10.tgz#9e20f35b2fdccacacf732dd7dedb49bf65f4556b"

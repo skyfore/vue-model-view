@@ -1,0 +1,1 @@
+export const detailProviderSymbol = Symbol('detail')

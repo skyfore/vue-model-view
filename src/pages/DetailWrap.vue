@@ -1,17 +1,18 @@
 <template>
-  <div class="p1">
+  <DetailProvider class="p1">
     <Detail />
-  </div>
+  </DetailProvider>
 </template>
 
 <script>
+import DetailProvider from '@/provider/Detail'
 
 import Detail from './Detail.vue'
 
 export default {
   name: 'DetailWrap',
   components: {
-    Detail,
+    DetailProvider, Detail,
   }
 }
 </script>

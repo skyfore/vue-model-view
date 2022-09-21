@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <Detail />
+    <DetailWrap />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import Detail from './pages/DetailWrap.vue'
+import DetailWrap from '@/pages/DetailWrap.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    Detail,
+    DetailWrap,
   }
 })
 </script>
